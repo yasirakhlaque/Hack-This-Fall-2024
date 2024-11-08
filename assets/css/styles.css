@@ -16,6 +16,10 @@ ul {
     list-style: none;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 .logo {
     height: 13vh;
     width: 100%;
@@ -80,6 +84,92 @@ ul {
     width: 100%;
     background-color: #fff;
 }
+
+/* contact section styling here  */
+
+.contact-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e3f6f5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.contact-container p {
+    color: #666;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.form-detailes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-detailes input,
+.form-group textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-detailes textarea {
+    height: 80px;
+    resize: vertical;
+    width: 100%;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.newsletter {
+    margin-bottom: 20px;
+}
+
+.newsletter label {
+    font-size: 14px;
+    color: #555;
+}
+
+button.form-submit {
+    padding: 10px 20px;
+    background-color: #6af1e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b5d6d3;
+}
+
+
 
 .foot-logo h1 {
     font-size: 1.5rem;
